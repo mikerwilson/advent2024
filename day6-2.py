@@ -4,7 +4,7 @@ from collections import OrderedDict
 from pprint import pprint
 import re
 
-filename = 'day6-input.txt'
+filename = 'day6-test.txt'
 rawdata = open(filename, 'r').read()
 grid: list = []
 lines: list = []
